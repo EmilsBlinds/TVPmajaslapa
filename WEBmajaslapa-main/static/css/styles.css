@@ -1,14 +1,14 @@
+.BackgroundRectangle {
+    display: table;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-image: url(/images/stonebackground.jpg);
-    background-blend-mode: darken;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/stonebackground.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,14 +17,6 @@ body {
 }
 
 
-
-.par-mums {
-    color: white;
-}
-
-.teksts {
-    color: white;
-}
 
 .html {
     padding: 0px;
@@ -32,14 +24,16 @@ body {
 }
 
 
-
-
-.Rectangle1 {
-    height: 100px;
-    width: 100px;
-    color: aliceblue;
-    position: relative;
+body {
+    margin: 0px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+
 
 .AboutMe {
     margin-top: 40px;
@@ -51,6 +45,7 @@ body {
     line-height: 16px;
     align-items: center;
     display: flex;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -64,6 +59,7 @@ body {
     line-height: 16px;
     display: flex;
     align-items: center;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -77,12 +73,13 @@ body {
     line-height: 16px;
     display: flex;
     align-items: center;
+    color: rgb(255, 255, 255);
 
 }
 
-.GitHub {
+.Github {
     margin-top: 40px;
-    margin-left: 420px;
+    margin-left: 410px;
     position: absolute;
     font-style: normal;
     font-weight: normal;
@@ -90,6 +87,7 @@ body {
     line-height: 16px;
     display: flex;
     align-items: center;
+    color: rgb(255, 255, 255);
 
 }
 
@@ -110,17 +108,15 @@ body {
     bottom: 0;
 }
 
-.Cover {
-    width: 100%;
-    height: 100%;
+.rectangle4 {
+    width: 80%;
+    height: 65%;
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
 
 .par-mums {
     font-size: 30px;
@@ -164,7 +160,12 @@ a:hover {
 }
 
 .Footer {
-
+    color: red;
 }
 
+p {
+    color: white;
+    margin: 5px;
+
+}
 
