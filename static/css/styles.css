@@ -8,7 +8,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/stonebackground.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/graphicbackground.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,6 +97,7 @@ body {
     width: 100%;
     height: 100px;
     background: rgb(27, 27, 27);
+    opacity: 70%;
 }
 
 .Footer {
@@ -104,8 +105,8 @@ body {
     width: 100%;
     height: 100px;
     background: #1d1d1d;
-    opacity: 100%;
     bottom: 0;
+    opacity: 70%;
 }
 
 .rectangle4 {
@@ -116,6 +117,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0;
 }
 
 .par-mums {
