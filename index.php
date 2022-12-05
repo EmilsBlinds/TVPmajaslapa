@@ -21,10 +21,18 @@
     </div>
     
     <div class="infobox">
+        
         <div class="rectangle4">
             <div class="par-mums"></div>
             <div class="teksts"></div>
             <div class="line1"></div>
+            <?php
+
+            $name = 'hello world';
+
+            echo $name;
+
+            ?>
         </div>
     </div>
 
