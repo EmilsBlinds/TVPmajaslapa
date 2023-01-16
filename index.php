@@ -1,13 +1,6 @@
 <?php
 
 include "vendor/autoload.php";
-include "scr/Database.php";
-
-use App/Database;
-
-$app = new Database();
-
-echo $database->host;
 
 ?>
 
